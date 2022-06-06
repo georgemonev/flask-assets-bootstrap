@@ -48,7 +48,7 @@ some basic text. If you're not familiar with Flask,
 I recommend you [start with this tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/).
 
 The Flask application module is located at
-[application/app.py](./application/application.py). The application uses [static](./application/static/) and [templates](./application/templates/) folders to
+[application/app.py](application.py). The application uses [static](./application/static/) and [templates](templates/) folders to
 render content.
 
 I am using the [Flask-Assets library](https://flask-assets.readthedocs.io/en/latest/) to load the Sass files and generate a CSS file. The following code will read the [main.scss](./applicaton/static/assets/main.scss) file and generate a css file based on it, using the [libsass](https://webassets.readthedocs.io/en/latest/builtin_filters.html#libsass) filter. The generated
